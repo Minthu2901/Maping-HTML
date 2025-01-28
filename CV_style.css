@@ -1,0 +1,24 @@
+.underline{
+  text-decoration: underline;
+}
+#center{
+    text-align: center;
+}
+.cont1 {
+    display: grid;
+    align-items: center; 
+    grid-template-columns: 1fr 4fr 1fr;
+    column-gap: 5px;
+    border: 3px solid black;
+}
+   
+.image {
+     max-width: 100%;
+     max-height:100%;
+     border: 3px solid black;
+     padding: 5px;
+}
+   
+.text {
+     font-size: 20px;
+}
